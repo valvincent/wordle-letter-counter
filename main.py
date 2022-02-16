@@ -1,6 +1,14 @@
 ### list.py contains Python list named 'wordlist'.
-### wordlist contains all 12,972 5-letter words found in the Wordle JavaScript.
-from list import wordlist as wordle_list 
+### contains all 12,972 5-letter words found in the ORIGINAL Wordle JavaScript.
+
+### nyt_list.py contains Python list named 'wordlist'.
+### contains all 12,947 5-letter words found in the NYTimes Wordle JavaScript.
+
+### Uncomment/comment out the appropriate line/s of code whether using ORIGINAL or NYTIMES Wordle.
+
+# from list import wordlist as wordle_list ### ORIGINAL Wordle
+from nyt_list import wordlist as wordle_list ### NYTimes Wordle
+
 
 ### Python dictionary with the 26 letters of the alphabet as keys.
 ### Value for each key is the number of occurence, to be updated as the program runs.
