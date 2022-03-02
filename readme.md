@@ -2,6 +2,8 @@
 
 A simple Python script that goes through the Wordle word list and **counts how many times each letter appears.**
 
+See the results [here](https://www.craft.do/s/mkqdI0OaGUW30u).
+
 **UPDATE 1:** 16 Feb 2022
 
 Added the revised list by the New York Times, see nyt_list.py
